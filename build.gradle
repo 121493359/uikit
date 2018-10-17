@@ -1,5 +1,4 @@
 apply plugin: 'com.android.library'
-apply plugin: 'com.novoda.bintray-release'
 apply plugin: 'com.github.dcendents.android-maven'
 // Your Group
 group='com.github.121493359'
@@ -37,11 +36,3 @@ dependencies {
 }
 
 
-publish {
-    userOrg = 'snake' // 改成你在 bintray 上注册的用户名
-    groupId = 'com.sanke.test' // 改成你的包名（影响别人引用的第一段）
-    artifactId = 'uikit' // 改成你的 Library 名字（影响别人引用的第二段）
-    publishVersion = '0.0.1' // 版本号 （影响别人引用的第三段）
-    desc = 'im uikit'
-    website = 'https://github.com/121493359/uikit.git'
-}
